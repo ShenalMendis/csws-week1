@@ -1,6 +1,9 @@
-def greet_user(username):
+def greet_user(user_age,user_name):
     """Display."""
-    print(f"Hello, {username.title()}!")
+    print(f"Hello, {user_name.title()}!. Age: {user_age}")
 
-greet_user('Jason')
+
+name = input("Name: ")
+age = input("Age: ")
+greet_user(user_name=name,user_age=age)
 
